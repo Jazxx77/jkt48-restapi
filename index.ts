@@ -13,7 +13,7 @@ app.listen(PORT, () => {
 });
 
 app.get("/", (req: Request, res: Response) => {
-  res.send("scraping jkt48 web by faruuhan");
+  res.send("scraping jkt48 web by jazxcode");
 });
 
 app.use("/api", router);
